@@ -1,0 +1,33 @@
+# ---- Environment / secrets ----
+.env
+.env.*
+!.env.example
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# ---- PyInstaller ----
+build/
+dist/
+*.spec
+
+# ---- Downloads / logs ----
+downloads/
+*.zip
+*.rar
+*.7z
+*.log
+
+# ---- IDE / OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+requirements-freeze.txt
