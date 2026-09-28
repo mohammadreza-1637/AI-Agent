@@ -14,7 +14,7 @@ env/
 
 # ---- PyInstaller ----
 build/
-dist/
+# dist/           
 *.spec
 
 # ---- Downloads / logs ----
@@ -30,4 +30,3 @@ downloads/
 *.swp
 .DS_Store
 Thumbs.db
-requirements-freeze.txt
